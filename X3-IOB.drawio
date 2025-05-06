@@ -1,0 +1,106 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.14">
+  <diagram name="Página-1" id="k6gE_lqXu5SQHlqSskun">
+    <mxGraphModel>
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="User" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="252" y="8" width="92" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="Sage X3" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="132" y="152" width="115" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="IOB Client" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="441" y="152" width="132" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="IOB Server" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="288" y="296" width="135" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="GOV.BR" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="746" y="296" width="113" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="242" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="355" y="508" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="Accesses Sage X3 to collect ECD and ECF files" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.82;entryX=0.23;entryY=0;" edge="1" parent="1" source="2" target="3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="108" y="107" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="10" value="Provides ECD and ECF files" style="curved=1;startArrow=none;endArrow=block;exitX=0.94;exitY=0;entryX=0.61;entryY=1;" edge="1" parent="1" source="3" target="2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="325" y="107" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="11" value="Uploads files into" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.79;entryX=0.5;entryY=0;" edge="1" parent="1" source="2" target="4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="507" y="107" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="12" value="Connects to" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.72;entryX=0;entryY=0.14;" edge="1" parent="1" source="4" target="5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="108" y="251" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="13" value="Processes and validates data" style="curved=1;startArrow=none;endArrow=block;exitX=0.84;exitY=0;entryX=0.42;entryY=1;" edge="1" parent="1" source="5" target="4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="479" y="251" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="14" value="" style="curved=1;startArrow=none;endArrow=none;exitX=0.06;exitY=1;entryX=-Infinity;entryY=NaN;" edge="1" parent="1" source="5" target="7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="242" y="375" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="15" value="Aggregates and processes all incoming data from different IOB Clients" style="curved=1;startArrow=none;endArrow=none;exitX=-Infinity;exitY=Infinity;entryX=Infinity;entryY=-Infinity;" edge="1" parent="1" source="7" target="8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="242" y="454" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="16" value="" style="curved=1;startArrow=none;endArrow=block;exitX=Infinity;exitY=-Infinity;entryX=0.5;entryY=1;" edge="1" parent="1" source="8" target="5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="17" value="Receives processed and validated results from" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.9;entryX=0.31;entryY=0;" edge="1" parent="1" source="4" target="5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="287" y="251" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="18" value="Sends validated data to" style="curved=1;startArrow=none;endArrow=block;exitX=0.97;exitY=1;entryX=0.06;entryY=0;" edge="1" parent="1" source="4" target="6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="672" y="251" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="19" value="Receives data" style="curved=1;startArrow=none;endArrow=block;exitX=0.59;exitY=0;entryX=1;entryY=0.77;" edge="1" parent="1" source="6" target="4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="829" y="251" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
