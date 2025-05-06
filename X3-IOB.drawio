@@ -4,7 +4,7 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="1Z_Db7fVH4fadPyimnko-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="1Z_Db7fVH4fadPyimnko-20" target="1Z_Db7fVH4fadPyimnko-29">
+        <mxCell id="1Z_Db7fVH4fadPyimnko-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1Z_Db7fVH4fadPyimnko-20" target="1Z_Db7fVH4fadPyimnko-29">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="1Z_Db7fVH4fadPyimnko-31" value="&lt;div&gt;ECD/ ECF files&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;validation&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];textShadow=1;" vertex="1" connectable="0" parent="1Z_Db7fVH4fadPyimnko-30">
@@ -24,7 +24,7 @@
         <mxCell id="1Z_Db7fVH4fadPyimnko-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="1Z_Db7fVH4fadPyimnko-20" target="3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1Z_Db7fVH4fadPyimnko-24" value="Access Sage X3 to generate all&amp;nbsp;&lt;div&gt;ECD and ECF files for obligations&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];textShadow=1;" vertex="1" connectable="0" parent="1Z_Db7fVH4fadPyimnko-23">
+        <mxCell id="1Z_Db7fVH4fadPyimnko-24" value="Access Sage X3 to generate all&amp;nbsp;&lt;div&gt;ECD and ECF files obligations&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];textShadow=1;" vertex="1" connectable="0" parent="1Z_Db7fVH4fadPyimnko-23">
           <mxGeometry x="-0.0049" y="-2" relative="1" as="geometry">
             <mxPoint x="-4" y="-2" as="offset" />
           </mxGeometry>
@@ -38,7 +38,7 @@
         <mxCell id="1Z_Db7fVH4fadPyimnko-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;" edge="1" parent="1" source="1Z_Db7fVH4fadPyimnko-29" target="5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1Z_Db7fVH4fadPyimnko-43" value="sends the SPED validated data to the&amp;nbsp;&lt;div&gt;&lt;strong data-end=&quot;1002&quot; data-start=&quot;992&quot;&gt;GOV.BR&lt;/strong&gt;&amp;nbsp;(brazilian government platform)&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBorderColor=none;textShadow=1;" edge="1" parent="1" source="1Z_Db7fVH4fadPyimnko-29" target="6">
+        <mxCell id="1Z_Db7fVH4fadPyimnko-43" value="&lt;div&gt;sends the signed and validated SPED file to&lt;/div&gt;&lt;div&gt;&lt;b&gt;GOV.BR &lt;/b&gt;(Brazilian government platform)&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBorderColor=none;textShadow=1;" edge="1" parent="1" source="1Z_Db7fVH4fadPyimnko-29" target="6">
           <mxGeometry x="0.1987" y="17" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -56,7 +56,7 @@
           <mxGeometry x="77.5" y="190" width="142.5" height="54" as="geometry" />
         </mxCell>
         <mxCell id="1Z_Db7fVH4fadPyimnko-35" value="SERVER" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1Z_Db7fVH4fadPyimnko-32">
-          <mxGeometry x="220" width="70" height="30" as="geometry" />
+          <mxGeometry x="200" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="1Z_Db7fVH4fadPyimnko-36" value="aggregates and processes&amp;nbsp;&lt;div&gt;all incoming&amp;nbsp;&lt;/div&gt;&lt;div&gt;data from different IOB Clients&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];textShadow=1;" vertex="1" connectable="0" parent="1">
           <mxGeometry x="430" y="320" as="geometry">
@@ -75,6 +75,9 @@
           <mxGeometry x="-0.085" y="4" relative="1" as="geometry">
             <mxPoint x="123" y="-29" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="1Z_Db7fVH4fadPyimnko-44" value="Case I" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBorderColor=none;fontSize=14;labelBackgroundColor=#E7E7FF;" vertex="1" parent="1">
+          <mxGeometry x="20" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
